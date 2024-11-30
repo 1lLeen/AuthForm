@@ -12,6 +12,9 @@ namespace AuthForm.Infrastucture
     public class AuthFormDbContext:DbContext
     {
         public AuthFormDbContext(DbContextOptions<AuthFormDbContext> options):base(options) { }
+        public AuthFormDbContext()
+        {
+        }
         public DbSet<UserModel> Usesrs { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
