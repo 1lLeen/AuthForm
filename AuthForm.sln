@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthForm.Dto", "AuthForm.Dto\AuthForm.Dto.csproj", "{B12239E3-7965-40C4-856B-32FE7DCABF1B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthForm.Infrastucture", "AuthForm.Infrastucture\AuthForm.Infrastucture.csproj", "{F96F8407-325E-475B-87F3-228D09143D0B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B12239E3-7965-40C4-856B-32FE7DCABF1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B12239E3-7965-40C4-856B-32FE7DCABF1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B12239E3-7965-40C4-856B-32FE7DCABF1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F96F8407-325E-475B-87F3-228D09143D0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F96F8407-325E-475B-87F3-228D09143D0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F96F8407-325E-475B-87F3-228D09143D0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F96F8407-325E-475B-87F3-228D09143D0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

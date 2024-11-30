@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AuthForm.Dto.Dtos.Interfaces
 {
-    internal interface ICreate
+    public interface ICreate
     {
     }
 }
