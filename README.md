@@ -1,6 +1,6 @@
 # AuthForm
-
-
+This is pet-projcet to show my skills in programming
+AuthForm project intended for demonstration purposes
 
 ## Getting started
 
