@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthForm.Dto", "AuthForm.Dt
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthForm.Infrastucture", "AuthForm.Infrastucture\AuthForm.Infrastucture.csproj", "{F96F8407-325E-475B-87F3-228D09143D0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthForm.Application", "AuthForm.Application\AuthForm.Application.csproj", "{C21CF07F-7A79-4601-A0A6-AAC8B05E3F71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthForm.Application", "AuthForm.Application\AuthForm.Application.csproj", "{C21CF07F-7A79-4601-A0A6-AAC8B05E3F71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthForm.UI", "AuthForm.UI\AuthForm.UI.csproj", "{C04A24FA-9098-45E8-8967-BB221386F0A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{C21CF07F-7A79-4601-A0A6-AAC8B05E3F71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C21CF07F-7A79-4601-A0A6-AAC8B05E3F71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C21CF07F-7A79-4601-A0A6-AAC8B05E3F71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C04A24FA-9098-45E8-8967-BB221386F0A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C04A24FA-9098-45E8-8967-BB221386F0A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C04A24FA-9098-45E8-8967-BB221386F0A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C04A24FA-9098-45E8-8967-BB221386F0A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

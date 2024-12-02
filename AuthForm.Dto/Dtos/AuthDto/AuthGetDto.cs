@@ -10,10 +10,7 @@ namespace AuthForm.Dto.Dtos.AuthDto
     public class AuthGetDto:IBase
     {
         public int Id { get; set; }
-        public string Token { get; set; }
         public string Email { get; set; }
         public bool IsEmailConfirmed { get; set; }
-
-
     }
 }
