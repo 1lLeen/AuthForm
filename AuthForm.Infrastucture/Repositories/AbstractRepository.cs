@@ -1,6 +1,7 @@
 ﻿using AuthForm.Infrastucture.Models;
 using AuthForm.Infrastucture.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion.Internal;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -49,6 +50,18 @@ namespace AuthForm.Infrastucture.Repositories
 
             await _context.SaveChangesAsync();
             return model;
+        }
+        public async Task<UserModel> GetByEmail(string email)
+        {
+            return await _users.FirstOrDefaultAsync(e => e.Email == email);
+        }
+        public async Task<UserModel> GetByEmailAndPassword(string email, string password)
+        {
+            return await _users.FirstOrDefaultAsync
+                (
+                x =>
+                x.Email == email && x.Password == password
+                );
         }
     }
 }

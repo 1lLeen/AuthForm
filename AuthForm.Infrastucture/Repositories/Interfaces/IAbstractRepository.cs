@@ -14,5 +14,7 @@ namespace AuthForm.Infrastucture.Repositories.Interfaces
         Task<TModel> DeleteAsync(TModel model);
         Task<TModel> GetByIdAsync(int id);
         Task<IEnumerable<TModel>> GetAllAsync();
+        Task<TModel> GetByEmail(string email);
+        Task<TModel> GetByEmailAndPassword(string email, string password);
     }
 }
