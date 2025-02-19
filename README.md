@@ -1,6 +1,16 @@
 # AuthForm
-This is pet-projcet to show my skills in programming
-AuthForm project intended for demonstration purposes
+
+Форма авторизации, реализованная на базе .NET Core с чистой архитектурой.
+
+## Особенности
+- Чистая архитектура (Clean Architecture).
+- Валидация данных на стороне сервера и клиента. 
+
+## Установка
+1. Клонируйте репозиторий: `git clone https://github.com/1lLeen/AuthForm.git`
+2. Установите зависимости: `dotnet restore`
+3. Запустите проект: `dotnet run`
+
 
 ## Getting started
 
